@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,700&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, black 27.26%, grey 96.03%);
+  font-family: Montserrat;
+}
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  border-radius: 20px;
+  padding: 64px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 50%;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  display: flex;
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+/*   A primeira é a distância entre o topo e embaixo; a segunda é a lateral */
+  background: #ECF4FF;
+  border-radius: 100px;
+  
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, grey 27.49%, black 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-item {
+  list-style-type: none;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  
+}
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.projetos-item p {
+/*   Como centralizar os títulos??????? */
+}
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F7F7F7;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: #ffffff;
+  border: 2px solid #F7F7F7;
+}
